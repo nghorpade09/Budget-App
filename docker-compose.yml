@@ -15,6 +15,6 @@ services:
     volumes:
       - ./pgdata:/var/lib/postgresql/data
     environment:
-      - POSTGRES_USER=admin
-      - POSTGRES_PASSWORD=admin123
-      - POSTGRES_DB=db1
+      - POSTGRES_USER=Budgy
+      - POSTGRES_PASSWORD=Budgy
+      - POSTGRES_DB=budgy_development
